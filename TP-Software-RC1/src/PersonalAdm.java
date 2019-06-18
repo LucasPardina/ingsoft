@@ -18,7 +18,10 @@ public void registrarObserver(Doctor d)
 
 public void notificarObservers()
 {
-    
+    for(i=0; i < misObservers.size(); i++){
+        Doctor doc = misObservers.get(i);
+        doc.actualizar(allTurnos);
+    }
 }
 
 public void borrarObserver(Doctor d)
