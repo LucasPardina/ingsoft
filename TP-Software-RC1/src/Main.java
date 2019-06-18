@@ -7,13 +7,13 @@ public class Main {
     cuadro1.setVisible(true);
     Usuario user = new Usuario(1);
     user.SetTipo("Admin");
-    if(user.isMedico())
+    if(user.isDoctor())
     {
-        System.out.printf("El usuario "+user.getID()+" es un medico\n");
+        System.out.printf("El usuario "+user.getID()+" es un doctor\n");
     }
     else
     {
-        System.out.printf("El usuario "+user.getID()+" no es un medico\n");
+        System.out.printf("El usuario "+user.getID()+" no es un doctor\n");
     }
 
     }

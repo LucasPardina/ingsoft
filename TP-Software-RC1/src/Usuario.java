@@ -8,9 +8,9 @@ public Usuario(int n)
     this.id = n;
 }
 
-public boolean isMedico()
+public boolean isDoctor()
 {
-    if(this.tipo=="Med")
+    if(this.tipo=="Doc")
     {
         return true;
     }

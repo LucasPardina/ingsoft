@@ -1,4 +1,4 @@
-import java.util.List;
+import java.util.ArrayList;
 
 public class Paciente {
     private String nombre ;
@@ -6,8 +6,8 @@ public class Paciente {
     private String direccion;
     private int edad;
     private HistorialMedico historial;
-    private List<String> misMedicamentos;
-    private List<String> alergias;
+    private ArrayList <Medicamento> misMedicamentos;
+    private ArrayList <Medicamento> alergias;
     
     public Paciente(String n,String a,String d, int e)
     {
@@ -15,8 +15,32 @@ public class Paciente {
         this.apellido = a;
         this.direccion = d;
         this.edad = e;
+        misMedicamentos = new ArrayList();
+        alergias = new ArrayList();
     }
     
+    public bool addMedicamento(Medicamento m)
+    {
+        if(alergias.contains(m))
+        {
+            return false;
+        }
+        else
+        {
+            misMedicamentos.add(m);
+            return true;
+        }
+    }
+    
+    public String getNombre()
+    {
+        return nombre;
+    }
+            
+    
+    
+    
+
     
     
     

@@ -4,11 +4,15 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/Turnos.java</file>
-            <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/Admin.java</file>
             <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/Main.java</file>
-            <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/Medico.java</file>
+            <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/Usuario.java</file>
+            <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/Doctor.java</file>
             <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/HistorialMedico.java</file>
             <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/Paciente.java</file>
+            <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/Autent.java</file>
+            <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/PrincipalDoctor.java</file>
+            <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/PersonalAdm.java</file>
+            <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/NuevoPaciente.java</file>
             <file>file:/C:/Users/usuario/Documents/Facultad/Ingenieria%20de%20Software/Trabajo%20Final/TP-Software-RC1/src/tp/software/rc1/TPSoftwareRC1.java</file>
         </group>
     </open-files>
