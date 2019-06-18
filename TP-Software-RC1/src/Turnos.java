@@ -1,10 +1,13 @@
 
 public class Turnos {
-    private Paciente p;
-    private String Fecha;
-    private int Minuto;
-    private int Hora;
-    private int Día;
-    private int Mes;
-    private int Año;
+    private Paciente paciente;
+    private Doctor doctor;
+    private String fecha;
+
+public Turnos(Paciente p, Doctor d, String fecha)
+{
+    paciente = p;
+    doctor = d;
+    this.fecha = fecha;
+}
 }

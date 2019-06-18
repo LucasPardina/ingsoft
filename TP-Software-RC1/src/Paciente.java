@@ -9,17 +9,15 @@ public class Paciente {
     private ArrayList <Medicamento> misMedicamentos;
     private ArrayList <Medicamento> alergias;
     
-    public Paciente(String n,String a,String d, int e)
+    public Paciente(String n,String a)
     {
         this.nombre = n;
         this.apellido = a;
-        this.direccion = d;
-        this.edad = e;
         misMedicamentos = new ArrayList();
         alergias = new ArrayList();
     }
     
-    public bool addMedicamento(Medicamento m)
+    public boolean addMedicamento(Medicamento m)
     {
         if(alergias.contains(m))
         {

@@ -1,22 +1,17 @@
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 public class Doctor {
 private String nombre;
-private LinkedList<Turnos> ListaT;
+private ArrayList <Turnos> misTurnos;
 
 public Doctor(String n)
 {
     this.nombre=n;
 }
 
-public void setTurnos(LinkedList<Turnos> l)
+public ArrayList<Turnos> getTurnos()
 {
-    this.ListaT = l;
-}
-
-public LinkedList<Turnos> getTurnos()
-{
-    return this.ListaT;
+    return misTurnos;
 }
 
 public String recetar(Paciente p, Medicamento m)
