@@ -3,9 +3,11 @@ public class Main {
     
     public static void main(String[] args)
     {
-        PersonalAdm persAdm = new PersonalAdm();
-        Doctor Martin = new Doctor("Martin", persAdm);
-        Doctor Julian = new Doctor("Julian", persAdm);
+        PersonalAdm personalAdm = new PersonalAdm();
+        Doctor Martin = new Doctor("Martin", personalAdm);
+        Doctor Julian = new Doctor("Julian", personalAdm);
+        personalAdm.registrarObserver(Martin);
+        personalAdm.registrarObserver(Julian);
         
         Autent cuadro1 = new Autent();
         cuadro1.setVisible(true);

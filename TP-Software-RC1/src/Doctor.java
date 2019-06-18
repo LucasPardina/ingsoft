@@ -7,8 +7,9 @@ private PersonalAdm persAdm;  //Sujeto a quien observo
 
 public Doctor(String n, PersonalAdm pa)
 {
-    this.nombre=n;
+    nombre = n;
     persAdm = pa;
+    persAdm.registrarObserver(this);  //me registro como observador a PersonalAdm
 }
 
 public ArrayList<Turnos> getTurnos()
