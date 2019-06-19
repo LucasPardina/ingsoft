@@ -6,10 +6,10 @@ public class Main {
         PersonalAdm personalAdm = new PersonalAdm();
         Doctor Martin = new Doctor("Martin", personalAdm);
         Doctor Julian = new Doctor("Julian", personalAdm);
-        personalAdm.registrarObserver(Martin);
-        personalAdm.registrarObserver(Julian);
         
-        Autent cuadro1 = new Autent();
+
+        
+        /*Autent cuadro1 = new Autent();
         cuadro1.setVisible(true);
         Usuario user = new Usuario(1);
         user.SetTipo("Admin");
@@ -20,7 +20,7 @@ public class Main {
         else
         {
             System.out.printf("El usuario "+user.getID()+" no es un doctor\n");
-        }
+        }*/
 
         }
     

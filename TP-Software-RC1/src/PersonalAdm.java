@@ -9,6 +9,7 @@ public PersonalAdm()
 {
     allTurnos = new ArrayList();
     allPacientes = new ArrayList();
+    misObservers = new ArrayList();
 }
 
 public void registrarObserver(Doctor d)
@@ -38,6 +39,7 @@ public void crearTurno(Paciente p, Doctor d, String fecha)
 {
    Turnos t = new Turnos(p, d, fecha);
    allTurnos.add(t);
+   notificarObservers();
 }
 
 public ArrayList <Turnos> verTurnos()
@@ -49,6 +51,11 @@ public void crearPaciente(String nombre, String apellido)
 {
     Paciente p = new Paciente(nombre, apellido);
     allPacientes.add(p);
+}
+
+public ArrayList <Paciente> getPacientes()
+{
+    return allPacientes;
 }
 
 
