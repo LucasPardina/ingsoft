@@ -21,14 +21,9 @@ public void actualizar(ArrayList <Turnos> t)
 {
     misTurnos = t;
 }
-public String recetar(Paciente p, Medicamento m)
+public void recetar(Paciente p, Medicamento m)
 {     
-    if(p.addMedicamento(m);)
-    {
-        return "Medicamento recetado con exito";
-    }
-    else
-        return "El paciente " + p.getNombre() + " es alergico a " + m.getNombre();
+    //tendria que devolver un string avisando si se pudo recetar o no
 }
 
 

@@ -8,13 +8,14 @@ public class Paciente {
     private HistorialMedico historial;
     private ArrayList <Medicamento> misMedicamentos;
     private ArrayList <Medicamento> alergias;
+    private FormaDePago mifdp;
     
     public Paciente(String n,String a)
     {
         this.nombre = n;
         this.apellido = a;
         misMedicamentos = new ArrayList();
-        alergias = new ArrayList();
+        alergias = new ArrayList();    
     }
     
     public boolean addMedicamento(Medicamento m)
@@ -33,6 +34,11 @@ public class Paciente {
     public String getNombre()
     {
         return nombre;
+    }
+    
+    public void setfdp(FormaDePago fdp)
+    {
+        mifdp = fdp;
     }
             
     
